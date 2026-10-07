@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Panel de inicio del gestor de almacén de GAME.">
-  <title>Inicio | GAME Almacén</title>
+  <meta name="description" content="Catálogo de electrónica del almacén GAME.">
+  <title>Electrónica | GAME Almacén</title>
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,8 @@
   <a class="saltar" href="#contenido">Saltar al contenido</a>
   <nav class="menu-principal" aria-label="Menú principal">
     <ul class="contenedor menu-lista">
-      <li><a href="index.html" class="activo" aria-current="page">Inicio</a></li>
-      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html" class="activo" aria-current="page">Catálogo</a></li>
       <li><a href="inventario.html">Inventario</a></li>
       <li><a href="alta.html">Alta producto</a></li>
     </ul>
@@ -45,68 +45,104 @@
       <li><a href="catalogo-seminuevos.html"><svg class="icono " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>Seminuevos</a></li>
       <li><a href="catalogo-merchandising.html"><svg class="icono " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg>Merchandising</a></li>
       <li><a href="catalogo-cine-comics.html"><svg class="icono " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 3v18M17 3v18M3 8h4M3 12h4M3 16h4M17 8h4M17 12h4M17 16h4"/></svg>Cine y cómics</a></li>
-      <li><a href="catalogo-electronica.html"><svg class="icono " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>Electrónica</a></li>
+      <li><a href="catalogo-electronica.html" class="activo" aria-current="page"><svg class="icono " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>Electrónica</a></li>
     </ul>
   </nav>
   <main class="principal" id="contenido">
-    <div class="contenedor panel-inicio">
-      <section class="banner" aria-labelledby="titulo-novedades">
-        <img src="img/banner-novedades.svg" alt="Banner morado con un mando de videojuegos" width="1200" height="400">
-        <div class="banner-texto">
-          <span class="banner-aviso">Últimas novedades</span>
-          <h1 id="titulo-novedades">Nuevos lanzamientos ya en el almacén</h1>
-          <p>Revisa el stock de las novedades de la semana y reponlas antes de que se agoten.</p>
-          <a class="boton boton-secundario" href="catalogo-videojuegos.html">Ver novedades</a>
-        </div>
-      </section>
-      <section class="resumen" aria-labelledby="titulo-resumen">
-        <h2 class="solo-lector" id="titulo-resumen">Resumen del almacén</h2>
-        <article class="dato"><p class="dato-numero">1.248</p><p>Referencias activas</p></article>
-        <article class="dato"><p class="dato-numero">18.430</p><p>Unidades en stock</p></article>
-        <article class="dato dato-aviso"><p class="dato-numero">37</p><p>Con stock bajo</p></article>
-        <article class="dato dato-error"><p class="dato-numero">12</p><p>Agotados</p></article>
-      </section>
-      <section class="destacados" aria-labelledby="titulo-destacados">
-        <div class="titulo-seccion"><h2 id="titulo-destacados">Productos destacados</h2><a href="catalogo.html">Ver catálogo ›</a></div>
-        <div class="rejilla-destacados">
-        <article class="tarjeta">
-          <figure class="tarjeta-imagen">
-            <img src="img/productos/consolas-1.svg" alt="Imagen de ejemplo de PlayStation 5 Slim" width="400" height="400" loading="lazy">
-            
-          </figure>
-          <div class="tarjeta-cuerpo">
-            <h3 class="tarjeta-nombre"><a href="#">PlayStation 5 Slim</a></h3>
-            <p class="tarjeta-plataforma">PS5</p>
-            <div class="tarjeta-pie">
-              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">549<sup>,99</sup> €</p></div>
-              <span class="etiqueta-stock stock-bajo">Stock bajo</span>
-            </div>
+    <div class="contenedor">
+      <nav class="migas" aria-label="Migas de pan">
+        <ol><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html">Catálogo</a></li><li aria-current="page">Electrónica</li></ol>
+      </nav>
+      <h1 class="titulo-pagina">Electrónica</h1>
+      <p class="subtitulo">Mostrando 10 de 80 productos</p>
+      <nav class="pestanas" aria-label="Selección de promoción">
+        <a href="#">Novedades</a><a href="#">Más vendidos</a><a class="activo" href="#" aria-current="true">Ofertas</a>
+      </nav>
+      <section class="filtros" aria-label="Filtros y ordenación">
+        <form class="filtros-form" action="#">
+          <div class="campo-filtro">
+            <label for="f-precio">Precio</label>
+            <select class="select" id="f-precio" name="precio">
+              <option>Rango de precio</option><option>Menos de 20 €</option><option>20 € - 50 €</option><option>Más de 50 €</option>
+            </select>
           </div>
-        </article>
+          <div class="campo-filtro">
+          <label for="f-ram">Tamaño RAM</label>
+          <select class="select" id="f-ram" name="ram">
+            <option>Todas</option><option>8 GB</option><option>16 GB</option><option>32 GB</option>
+          </select>
+        </div>
+          <details class="mas-filtros">
+            <summary class="boton boton-secundario"><svg class="icono " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16M7 12h10M10 18h4"/></svg> Más filtros</summary>
+            <div class="mas-filtros-panel">
+              <label class="control"><input type="checkbox" name="disponible" checked> Disponible</label>
+              <label class="control"><input type="checkbox" name="oferta"> En oferta</label>
+              <label class="control"><input type="checkbox" name="seminuevo"> Seminuevo</label>
+            </div>
+          </details>
+          <div class="campo-filtro campo-orden">
+            <label for="f-orden">Ordenar por</label>
+            <select class="select" id="f-orden" name="orden">
+              <option>Relevancia</option><option>Precio: menor a mayor</option><option>Precio: mayor a menor</option><option>Más vendidos</option><option>Novedades</option>
+            </select>
+          </div>
+        </form>
+      </section>
+      <section aria-labelledby="titulo-listado">
+        <h2 class="solo-lector" id="titulo-listado">Listado de productos</h2>
+        <div class="rejilla-productos">
         <article class="tarjeta">
           <figure class="tarjeta-imagen">
-            <img src="img/productos/videojuegos-1.svg" alt="Imagen de ejemplo de EA Sports FC 25" width="400" height="400" loading="lazy">
+            <img src="img/productos/electronica-1.svg" alt="Imagen de ejemplo de Auriculares Bluetooth ANC" width="400" height="400" loading="lazy">
             
           </figure>
           <div class="tarjeta-cuerpo">
-            <h3 class="tarjeta-nombre"><a href="#">EA Sports FC 25</a></h3>
-            <p class="tarjeta-plataforma">PS5</p>
+            <h3 class="tarjeta-nombre"><a href="#">Auriculares Bluetooth ANC</a></h3>
+            <p class="tarjeta-plataforma">Audio</p>
             <div class="tarjeta-pie">
-              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">69<sup>,99</sup> €</p></div>
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">79<sup>,99</sup> €</p></div>
               <span class="etiqueta-stock stock-ok">En stock</span>
             </div>
           </div>
         </article>
         <article class="tarjeta">
           <figure class="tarjeta-imagen">
-            <img src="img/productos/informatica-1.svg" alt="Imagen de ejemplo de Portátil gaming 16&quot; RTX 4060" width="400" height="400" loading="lazy">
+            <img src="img/productos/electronica-2.svg" alt="Imagen de ejemplo de Smartwatch deportivo" width="400" height="400" loading="lazy">
             
           </figure>
           <div class="tarjeta-cuerpo">
-            <h3 class="tarjeta-nombre"><a href="#">Portátil gaming 16&quot; RTX 4060</a></h3>
-            <p class="tarjeta-plataforma">PC · 16 GB RAM</p>
+            <h3 class="tarjeta-nombre"><a href="#">Smartwatch deportivo</a></h3>
+            <p class="tarjeta-plataforma">Wearables</p>
             <div class="tarjeta-pie">
-              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">1099<sup>,99</sup> €</p></div>
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">129<sup>,99</sup> €</p></div>
+              <span class="etiqueta-stock stock-ok">En stock</span>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <figure class="tarjeta-imagen">
+            <img src="img/productos/electronica-3.svg" alt="Imagen de ejemplo de Tablet 10&quot; · 8 GB RAM" width="400" height="400" loading="lazy">
+            
+          </figure>
+          <div class="tarjeta-cuerpo">
+            <h3 class="tarjeta-nombre"><a href="#">Tablet 10&quot; · 8 GB RAM</a></h3>
+            <p class="tarjeta-plataforma">Android · 8 GB RAM</p>
+            <div class="tarjeta-pie">
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">249<sup>,99</sup> €</p></div>
+              <span class="etiqueta-stock stock-bajo">Stock bajo</span>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <figure class="tarjeta-imagen">
+            <img src="img/productos/electronica-1.svg" alt="Imagen de ejemplo de Altavoz portátil" width="400" height="400" loading="lazy">
+            
+          </figure>
+          <div class="tarjeta-cuerpo">
+            <h3 class="tarjeta-nombre"><a href="#">Altavoz portátil</a></h3>
+            <p class="tarjeta-plataforma">Audio</p>
+            <div class="tarjeta-pie">
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">49<sup>,99</sup> €</p></div>
               <span class="etiqueta-stock stock-ok">En stock</span>
             </div>
           </div>
@@ -127,84 +163,89 @@
         </article>
         <article class="tarjeta">
           <figure class="tarjeta-imagen">
-            <img src="img/productos/merchandising-3.svg" alt="Imagen de ejemplo de Sudadera Pac-Man" width="400" height="400" loading="lazy">
+            <img src="img/productos/electronica-3.svg" alt="Imagen de ejemplo de Cámara de acción 4K" width="400" height="400" loading="lazy">
             
           </figure>
           <div class="tarjeta-cuerpo">
-            <h3 class="tarjeta-nombre"><a href="#">Sudadera Pac-Man</a></h3>
-            <p class="tarjeta-plataforma">Merchandising</p>
+            <h3 class="tarjeta-nombre"><a href="#">Cámara de acción 4K</a></h3>
+            <p class="tarjeta-plataforma">Cámaras</p>
             <div class="tarjeta-pie">
-              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">39<sup>,99</sup> €</p></div>
-              <span class="etiqueta-stock stock-bajo">Stock bajo</span>
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Avísame</a><p class="precio">159<sup>,99</sup> €</p></div>
+              <span class="etiqueta-stock stock-agotado">Agotado</span>
             </div>
           </div>
         </article>
         <article class="tarjeta">
           <figure class="tarjeta-imagen">
-            <img src="img/productos/videojuegos-2.svg" alt="Imagen de ejemplo de Call of Duty: Black Ops 6" width="400" height="400" loading="lazy">
+            <img src="img/productos/electronica-1.svg" alt="Imagen de ejemplo de Batería externa 20.000 mAh" width="400" height="400" loading="lazy">
             
           </figure>
           <div class="tarjeta-cuerpo">
-            <h3 class="tarjeta-nombre"><a href="#">Call of Duty: Black Ops 6</a></h3>
-            <p class="tarjeta-plataforma">PS5</p>
+            <h3 class="tarjeta-nombre"><a href="#">Batería externa 20.000 mAh</a></h3>
+            <p class="tarjeta-plataforma">Accesorios</p>
             <div class="tarjeta-pie">
-              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">74<sup>,99</sup> €</p></div>
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">29<sup>,99</sup> €</p></div>
+              <span class="etiqueta-stock stock-ok">En stock</span>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <figure class="tarjeta-imagen">
+            <img src="img/productos/electronica-2.svg" alt="Imagen de ejemplo de Cargador GaN 65 W" width="400" height="400" loading="lazy">
+            
+          </figure>
+          <div class="tarjeta-cuerpo">
+            <h3 class="tarjeta-nombre"><a href="#">Cargador GaN 65 W</a></h3>
+            <p class="tarjeta-plataforma">Accesorios</p>
+            <div class="tarjeta-pie">
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">34<sup>,99</sup> €</p></div>
+              <span class="etiqueta-stock stock-ok">En stock</span>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <figure class="tarjeta-imagen">
+            <img src="img/productos/electronica-3.svg" alt="Imagen de ejemplo de Smartphone 128 GB · 8 GB RAM" width="400" height="400" loading="lazy">
+            
+          </figure>
+          <div class="tarjeta-cuerpo">
+            <h3 class="tarjeta-nombre"><a href="#">Smartphone 128 GB · 8 GB RAM</a></h3>
+            <p class="tarjeta-plataforma">Android · 8 GB RAM</p>
+            <div class="tarjeta-pie">
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">299<sup>,99</sup> €</p></div>
+              <span class="etiqueta-stock stock-ok">En stock</span>
+            </div>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <figure class="tarjeta-imagen">
+            <img src="img/productos/electronica-1.svg" alt="Imagen de ejemplo de Lector e-book 6&quot;" width="400" height="400" loading="lazy">
+            
+          </figure>
+          <div class="tarjeta-cuerpo">
+            <h3 class="tarjeta-nombre"><a href="#">Lector e-book 6&quot;</a></h3>
+            <p class="tarjeta-plataforma">Lectura</p>
+            <div class="tarjeta-pie">
+              <div class="tarjeta-compra"><a class="enlace-accion" href="#">Comprar</a><p class="precio">99<sup>,99</sup> €</p></div>
               <span class="etiqueta-stock stock-bajo">Stock bajo</span>
             </div>
           </div>
         </article>
         </div>
       </section>
-      <aside class="ofertas" aria-labelledby="titulo-ofertas">
-        <div class="titulo-seccion"><h2 id="titulo-ofertas">Ofertas</h2><a href="catalogo-promociones.html">Ver todas ›</a></div>
-        <ul class="lista-ofertas">
-        <li class="oferta">
-          <img src="img/productos/promociones-1.svg" alt="Imagen de ejemplo de Auriculares gaming 7.1" width="72" height="72" loading="lazy">
-          <div class="oferta-texto">
-            <a class="oferta-nombre" href="catalogo-promociones.html">Auriculares gaming 7.1</a>
-            <span class="tarjeta-plataforma">Multiplataforma</span>
-            <span class="oferta-precios"><p class="precio">39<sup>,99</sup> €</p><s class="precio-antes">59,99 €</s></span>
-          </div>
-          <span class="etiqueta-promo">-33%</span>
-        </li>
-        <li class="oferta">
-          <img src="img/productos/promociones-2.svg" alt="Imagen de ejemplo de Mando inalámbrico" width="72" height="72" loading="lazy">
-          <div class="oferta-texto">
-            <a class="oferta-nombre" href="catalogo-promociones.html">Mando inalámbrico</a>
-            <span class="tarjeta-plataforma">PS5</span>
-            <span class="oferta-precios"><p class="precio">49<sup>,99</sup> €</p><s class="precio-antes">69,99 €</s></span>
-          </div>
-          <span class="etiqueta-promo">-29%</span>
-        </li>
-        <li class="oferta">
-          <img src="img/productos/promociones-3.svg" alt="Imagen de ejemplo de Webcam Full HD" width="72" height="72" loading="lazy">
-          <div class="oferta-texto">
-            <a class="oferta-nombre" href="catalogo-promociones.html">Webcam Full HD</a>
-            <span class="tarjeta-plataforma">PC</span>
-            <span class="oferta-precios"><p class="precio">34<sup>,99</sup> €</p><s class="precio-antes">49,99 €</s></span>
-          </div>
-          <span class="etiqueta-promo">-30%</span>
-        </li>
-        <li class="oferta">
-          <img src="img/productos/promociones-1.svg" alt="Imagen de ejemplo de Alfombrilla XXL" width="72" height="72" loading="lazy">
-          <div class="oferta-texto">
-            <a class="oferta-nombre" href="catalogo-promociones.html">Alfombrilla XXL</a>
-            <span class="tarjeta-plataforma">PC</span>
-            <span class="oferta-precios"><p class="precio">14<sup>,99</sup> €</p><s class="precio-antes">24,99 €</s></span>
-          </div>
-          <span class="etiqueta-promo">-40%</span>
-        </li>
-        <li class="oferta">
-          <img src="img/productos/promociones-2.svg" alt="Imagen de ejemplo de Micrófono USB streaming" width="72" height="72" loading="lazy">
-          <div class="oferta-texto">
-            <a class="oferta-nombre" href="catalogo-promociones.html">Micrófono USB streaming</a>
-            <span class="tarjeta-plataforma">PC</span>
-            <span class="oferta-precios"><p class="precio">59<sup>,99</sup> €</p><s class="precio-antes">89,99 €</s></span>
-          </div>
-          <span class="etiqueta-promo">-33%</span>
-        </li>
+      <a class="enlace-mas-info" href="catalogo.html">Más información <span aria-hidden="true">›</span></a>
+      <nav class="paginacion" aria-label="Paginación">
+        <p class="paginacion-texto">Página 1 de 8</p>
+        <ul class="paginacion-lista">
+          <li><span class="pag-item desactivado" aria-disabled="true" aria-label="Página anterior">‹</span></li>
+          <li><a class="pag-item activo" href="#" aria-current="page">1</a></li>
+          <li><a class="pag-item" href="#">2</a></li>
+          <li><a class="pag-item" href="#">3</a></li>
+          <li><span class="pag-item pag-puntos" aria-hidden="true">…</span></li>
+          <li><a class="pag-item" href="#">8</a></li>
+          <li><a class="pag-item" href="#" aria-label="Página siguiente">›</a></li>
         </ul>
-      </aside>
+      </nav>
     </div>
   </main>
   <footer class="pie">
