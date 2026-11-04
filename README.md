@@ -11,7 +11,7 @@ Interfaz web estática (solo HTML y CSS) para gestionar el stock de las tiendas 
 
 ## Web publicada
 
-https://github.com/xabidefuentes/proyecto-game
+https://xabidefuentes.github.io/proyecto-game/
 
 ## Páginas
 
