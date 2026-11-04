@@ -50,9 +50,3 @@ proyecto-game/
 ├── img/
 └── README.md
 ```
-
-## Cómo publicar en GitHub Pages
-
-1. Sube el repositorio a GitHub.
-2. En **Settings → Pages**, elige la rama `main` y la carpeta `/ (root)`.
-3. Copia el enlace generado y pégalo en este README.
