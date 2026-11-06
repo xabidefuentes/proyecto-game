@@ -9,6 +9,10 @@ Interfaz web estática (solo HTML y CSS) para gestionar el stock de las tiendas 
 - Xabier de Fuentes
 - David San Martin
 
+## Link GitHub
+
+https://github.com/xabidefuentes/proyecto-game
+
 ## Web publicada
 
 https://xabidefuentes.github.io/proyecto-game/
